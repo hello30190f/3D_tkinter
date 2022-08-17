@@ -14,9 +14,10 @@ class Veiw_triangle():
         pass
         self.can = tk.Canvas(root,width=600,height=600)
         self.can.place(x=0,y=0)
-        self.can.create_polygon(300,500,100,100,500,100,fill="green")
-        self.can.create_polygon(300,100,100,500,500,500)
-        self.can.create_line(10,10,20,20)
+        self.id1 = self.can.create_polygon(300,500,100,100,500,100,fill="green")
+        self.can.move(self.id1,-100,0)
+        # self.can.create_polygon(300,100,100,500,500,500)
+        # self.can.create_line(10,10,20,20)
         # id2 = self.can.create_rectangle(30,30,300,300,fill="green",tag="rect")
     
     # def useINIT(self):
