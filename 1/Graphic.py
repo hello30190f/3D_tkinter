@@ -16,14 +16,7 @@ class Veiw_triangle():
         self.can.place(x=0,y=0)
         self.id1 = self.can.create_polygon(300,500,100,100,500,100,fill="green")
         self.can.move(self.id1,-100,0)
-        # self.can.create_polygon(300,100,100,500,500,500)
-        # self.can.create_line(10,10,20,20)
-        # id2 = self.can.create_rectangle(30,30,300,300,fill="green",tag="rect")
-    
-    # def useINIT(self):
-    #     self.can = tk.Canvas(root,width=600,height=600)
-    #     self.can.create_polygon(300,500,100,100,500,100,fill="green")
-    #     id2 = self.can.create_rectangle(30,30,300,300,fill="green",tag="rect")
+
 
 
 class Learn_canvas():
@@ -71,8 +64,6 @@ root.title("Hello world in 3D!")
 # ins1.draw()
 
 ins2 = Veiw_triangle()
-# ins2.useINIT()
-
 
 root.mainloop()
 
